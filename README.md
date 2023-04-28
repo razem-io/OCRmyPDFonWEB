@@ -14,6 +14,8 @@ Streamlit Web UI for OCRmyPDF. Its codebase is tiny, so if you want to modify it
 docker run --rm -p 127.0.0.1:8501:8501 razemio/ocrmypdfonweb
 ```
 
+Open http://localhost:8501
+
 ## Develop
 
 ```
