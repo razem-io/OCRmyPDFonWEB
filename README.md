@@ -20,7 +20,7 @@ Open http://localhost:8501
 
 ```
 docker build -t razemio/ocrmypdfonweb:dev . # Only needed after you changed requirements.txt
-docker run --rm -it -p 127.0.0.1:8501:8501 -v ${PWD}/server.py:/app/server.py razemio/ocrmypdfonweb
+docker run --rm -it -p 127.0.0.1:8501:8501 -v ${PWD}/server.py:/app/server.py razemio/ocrmypdfonweb:dev
 ```
 
 Happy coding :)
